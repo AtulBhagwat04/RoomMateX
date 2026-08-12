@@ -1,0 +1,6 @@
+{
+  "name": "RoomMateX",
+  "description": "Roommate expense tracking, chore management, house coordination, XP, achievements, and leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
