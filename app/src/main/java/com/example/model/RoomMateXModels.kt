@@ -3,30 +3,24 @@ package com.example.model
 enum class HouseRole {
     OWNER, ADMIN, MEMBER
 }
-
 enum class SplitType {
     EQUAL, PERCENTAGE, CUSTOM, SHARES
 }
-
 enum class ChorePriority {
     LOW, MEDIUM, HIGH
 }
-
 enum class ChoreDifficulty(val xpReward: Int) {
     EASY(10),
     MEDIUM(25),
     HARD(50),
     EPIC(100)
 }
-
 enum class ChoreStatus {
     PENDING, IN_PROGRESS, COMPLETED, VERIFIED, OVERDUE
 }
-
 enum class ChoreRecurrence {
     NONE, DAILY, WEEKLY, MONTHLY
 }
-
 enum class AchievementRarity {
     COMMON, RARE, EPIC, LEGENDARY
 }
